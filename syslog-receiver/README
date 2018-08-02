@@ -1,4 +1,11 @@
-syslog-ng configuration files :
-edugain-fticks.conf - central syslog collector configuration
-edugain-fticks-elk.conf - syslog configuration for resend ticks to ELK
+eduGAIN FTicks syslog central collector
 
+eduGAIN FTicks syslog central collector is implement using syslog-ng. 
+
+syslog-ng configuration files :
+  * edugain-fticks.conf - central syslog collector configuration
+  * edugain-fticks-elk.conf - syslog configuration for resend ticks to ELK
+
+For central collecting functionality, syslog-ng store FTicks in text file with name : 
+  * TICKS-$R_YEAR$R_MONTH$R_DAY$R_HOUR.log (TICKS-20180730.log) - correct formated FTicks
+  * TICKS-error-$R_YEAR$R_MONTH$R_DAY$R_HOUR.log (TICKS-error-20180730.log)- incorect formated syslog messagess
