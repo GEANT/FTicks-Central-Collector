@@ -1,3 +1,4 @@
 syslog-ng configuration files :
 edugain-fticks.conf - central syslog collector configuration
+edugain-fticks-elk.conf - syslog configuration for resend ticks to ELK
 
